@@ -1,4 +1,4 @@
-/* Custom animations */
+
 @keyframes float {
     0% { transform: translateY(0px); }
     50% { transform: translateY(-15px); }
@@ -16,7 +16,7 @@
     color: transparent;
 }
 
-/* Custom scrollbar */
+
 ::-webkit-scrollbar {
     width: 8px;
 }
@@ -30,7 +30,7 @@
     border-radius: 4px;
 }
 
-/* Project card hover effect */
+
 .project-card {
     transition: all 0.3s ease;
 }
@@ -40,14 +40,14 @@
     box-shadow: 0 20px 25px -5px rgba(59, 130, 246, 0.3);
 }
 
-/* Base styles */
+
 body {
     background-color: #0f172a;
     color: white;
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
-/* Navigation */
+
 nav {
     width: 100%;
     background-color: rgba(15, 23, 42, 0.9);
@@ -57,12 +57,12 @@ nav {
     z-index: 50;
 }
 
-/* Section styles */
+
 section {
     padding: 5rem 0;
 }
 
-/* Button styles */
+
 .btn-primary {
     background-color: #2563eb;
     transition: all 0.3s ease;
@@ -73,7 +73,7 @@ section {
     transform: translateY(-2px);
 }
 
-/* Card styles */
+
 .card {
     background-color: rgba(30, 41, 59, 0.5);
     border: 1px solid #334155;
@@ -86,7 +86,7 @@ section {
     transform: translateY(-0.5rem);
 }
 
-/* Form styles */
+
 .form-input {
     background-color: #1e293b;
     border: 1px solid #334155;
@@ -101,7 +101,7 @@ section {
     box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5);
 }
 
-/* Responsive adjustments */
+
 @media (max-width: 768px) {
     section {
         padding: 3rem 0;
